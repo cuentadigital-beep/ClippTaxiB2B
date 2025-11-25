@@ -49,19 +49,19 @@ La estructura de un diagrama de casos de uso incluye los siguientes componentes 
    - Se ilustra como un rectángulo que contiene los casos de uso.
 
 ---
-## 1. Diagrama de caso de uso (Aprovisionamiento)
+## 1. Diagrama de caso de uso (Planificación)
+![Caso de uso Planificacion](https://github.com/user-attachments/assets/4d9b9ccc-9bef-4023-bbde-42e91d42ad10)
 
-![Inventario de Bodega-Caso de Uso 1 drawio]([https://github.com/user-attachments/assets/16200d1b-2f0f-48f2-82c3-3a7832055503](https://drive.google.com/file/d/132APQTEHx7DrGDIOvB8JjIC4kT19tydT/view?usp=sharing))
 
-
- ## Descripción del primer caso de uso: Gestión de Zonas
+ ## Descripción del primer caso de uso: Planificación
+ ## Caso: Gestión de Zonas
 
  | *Nombre*       | Gestión de Zonas                                                                                                                                                                                                                                                            |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | *Actores*      | Administrador                                                                                                                                                                                                                                                               |
 | *Flujo normal* | 1. Administrador accede al módulo de gestión de zonas.<br>2. Administrador Define las áreas geográficas de operación en el mapa.<br>3. El mapa devuelve el area geografica al Administrador.<br>4. Administrador Configura las zonas de cobertura en el area geografica <br>5. Administrador Establece las zonas tarifadas en la zona de cobertura.<br>
 
- ## Descripción del primer caso de uso: Programación de Recursos
+ ## Caso: Programación de Recursos
  | *Nombre*       | Programación de Recursos                                                                                                                                                                                                                                                                                   |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | *Actores*      | Administrador                                                                                                                                                                                                                                                                                              |
@@ -74,38 +74,5 @@ La estructura de un diagrama de casos de uso incluye los siguientes componentes 
 | *Actores*      | Administrador                                                                                                                                                                                                                                                                  |
 | *Flujo normal* | 1. Administrador accede al módulo de optimización avanzada.<br>2. Analiza el balance entre oferta y demanda del servicio.<br>3. Aplica estrategias de optimización para mejorar la asignación de recursos.<br>4. Genera ajustes y recomendaciones para optimizar la operación. |
 
-
-## 2. Diagrama de caso de uso (Almacenamiento)
-
-![Inventario de Bodega-Caso de Uso 2](https://github.com/user-attachments/assets/9b1955ed-38bf-47ee-a909-547a3e15675e)
-
- ## Descripción del segundo caso de uso: Almacenamiento
-
- ### Caso: Organizar los Componentes 
-
-| *Nombre*           | Organizar los Componentes                                    |
-|-----------------------|-------------------------------------------------|
-| *Actores*          | Encargado de almacén.     |
-| *Flujo normal*     | 1. Encargado de almacén etiqueta y codifica los componentes para facilitar su identificación. <br>2. Encargado de almacén clasifica los componentes según el sistema de categorización definido.<br>3. Encargado de almacén organiza los componentes priorizando aquellos con mayor demanda o rotación. |
- 
-## 3. Diagrama de caso de uso (Gestión operativa)
-
-![Inventario de Bodega-Caso de uso 3](https://github.com/user-attachments/assets/408f6562-dbdd-4f1c-9f1b-0903fc722a8d)
-
-## Descripción del tercer caso de uso: Gestión operativa
-
-### Caso: Monitorear las Existencias
-
-| *Nombre*           | Monitorear las Existencias         |
-|-----------------------|-------------------------------------------------|
-| *Actores*          | Coordinador de operaciones de inventario    |
-| *Flujo normal*     | 1. Coordinador de operaciones de inventario revisa los niveles actuales de existencias.<br>2. Coordinador de operaciones de inventario realiza auditorías regulares para verificar discrepancias.<br>3. Coordinador de operaciones de inventario actualiza los registros con los cambios identificados.<br>4. Coordinador de operaciones de inventario controla los componentes obsoletos o caducados.|
-
-### Caso: Reabastecer los Componentes
-
-| *Nombre*           | Reabastecer los Componentes         |
-|-----------------------|-------------------------------------------------|
-| *Actores*          | Coordinador de operaciones de inventario    |
-| *Flujo normal*     | 1. Coordinador de operaciones de inventario identifica componentes que alcanzan el punto de reorden.<br>2. Coordinador de operaciones de inventario activa las órdenes de compra para reabastecer dichos componentes.<br>3. Coordinador de operaciones de inventario calcula el stock de seguridad necesario según la demanda actual.|
 
 

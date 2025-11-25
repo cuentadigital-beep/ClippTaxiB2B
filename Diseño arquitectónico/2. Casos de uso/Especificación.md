@@ -54,18 +54,18 @@ La estructura de un diagrama de casos de uso incluye los siguientes componentes 
 
 
  ## Descripción del primer caso de uso: Planificación
- ## Caso: Gestión de Zonas
+ ## Descripción del primer caso de uso: Gestión de Zonas
 
  | *Nombre*       | Gestión de Zonas                                                                                                                                                                                                                                                            |
 | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | *Actores*      | Administrador                                                                                                                                                                                                                                                               |
-| *Flujo normal* | 1. Administrador accede al módulo de gestión de zonas.<br>2. Administrador Define las áreas geográficas de operación en el mapa.<br>3. El mapa devuelve el area geografica al Administrador.<br>4. Administrador Configura las zonas de cobertura en el area geografica <br>5. Administrador Establece las zonas tarifadas en la zona de cobertura.<br>
+| *Flujo normal* | 1. Administrador accede al módulo de gestión de zonas.<br>2. Define las áreas geográficas de operación.<br>3. Configura las zonas de cobertura del servicio.<br>4. Establece las zonas tarifarias según la planificación.<br>5. Guarda y valida la configuración realizada. |
 
- ## Caso: Programación de Recursos
+ ## Descripción del primer caso de uso: Programación de Recursos
  | *Nombre*       | Programación de Recursos                                                                                                                                                                                                                                                                                   |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| *Actores*      | Administrador                                                                                                                                                                                                                                                                                              |
-| *Flujo normal* | 1. Administrador accede al módulo de programación de recursos.<br>2. Registra la flota disponible para la operación.<br>3. Verifica la disponibilidad de los conductores.<br>4. Comprueba el cumplimiento normativo de vehículos y conductores.<br>5. Confirma la asignación de recursos para el servicio. |
+| *Actores*      | Administrador, Operador                                                                                                                                                                                                                                                                                              |
+| *Flujo normal* | 1. Administrador accede al módulo de programación de recursos.<br>2. El Administrador Registra la flota disponible para la operación.<br>3. El Administrador Verifica la disponibilidad de los conductores.<br>4. El operador Comprueba el cumplimiento normativo de vehículos y conductores.<br>5. Confirma la asignación de recursos para el servicio. |
 
 
 ## Caso: Optimización Avanzada
@@ -73,6 +73,4 @@ La estructura de un diagrama de casos de uso incluye los siguientes componentes 
 | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | *Actores*      | Administrador                                                                                                                                                                                                                                                                  |
 | *Flujo normal* | 1. Administrador accede al módulo de optimización avanzada.<br>2. Analiza el balance entre oferta y demanda del servicio.<br>3. Aplica estrategias de optimización para mejorar la asignación de recursos.<br>4. Genera ajustes y recomendaciones para optimizar la operación. |
-
-
 

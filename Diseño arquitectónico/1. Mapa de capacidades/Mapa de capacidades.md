@@ -3,8 +3,7 @@
 </p>
 
 
-# Mapa de Capacidades para la Aplicación de Gestión de Inventario de Bodega
-
+# Mapa de Capacidades para el Sistema Clipp Taxi 3.0
 ## ¿Qué es un Mapa de Capacidades?
 
 Un **Mapa de Capacidades** es una herramienta visual que ayuda a estructurar y definir las funciones y habilidades esenciales de un sistema o aplicación. Su propósito es ofrecer una visión clara de las capacidades que un sistema debe tener para cumplir sus objetivos. En el contexto de una aplicación de software, un mapa de capacidades permite identificar las áreas clave de funcionalidad, agrupar actividades relacionadas y visualizar cómo se interconectan los diferentes módulos del sistema.
@@ -40,3 +39,4 @@ El módulo de **Planificación** establece los fundamentos para una gestión efe
    Permite relizar el registro de la flota, la gestión de conductores, y validar el cumplimiento normativo.
 4. **Optimización avanzada**  
    Permite gestionar el balance de oferta y demanda y su optimización.
+

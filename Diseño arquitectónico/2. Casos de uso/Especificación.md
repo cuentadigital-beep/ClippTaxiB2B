@@ -49,7 +49,7 @@ La estructura de un diagrama de casos de uso incluye los siguientes componentes 
    - Se ilustra como un rectángulo que contiene los casos de uso.
 
 ---
-## 1. Diagrama de caso de uso (Aprovisionamiento)
+## 1. Diagrama de caso de uso (Planificación)
 
 ![Inventario de Bodega-Caso de Uso 1 drawio](https://github.com/user-attachments/assets/16200d1b-2f0f-48f2-82c3-3a7832055503)
 
@@ -107,4 +107,5 @@ La estructura de un diagrama de casos de uso incluye los siguientes componentes 
 |-----------------------|-------------------------------------------------|
 | *Actores*          | Coordinador de operaciones de inventario    |
 | *Flujo normal*     | 1. Coordinador de operaciones de inventario identifica componentes que alcanzan el punto de reorden.<br>2. Coordinador de operaciones de inventario activa las órdenes de compra para reabastecer dichos componentes.<br>3. Coordinador de operaciones de inventario calcula el stock de seguridad necesario según la demanda actual.|
+
 

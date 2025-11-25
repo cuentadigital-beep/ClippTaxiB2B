@@ -54,21 +54,26 @@ La estructura de un diagrama de casos de uso incluye los siguientes componentes 
 ![Inventario de Bodega-Caso de Uso 1 drawio](https://github.com/user-attachments/assets/16200d1b-2f0f-48f2-82c3-3a7832055503)
 
 
- ## Descripción del primer caso de uso: Aprovisionamiento
+ ## Descripción del primer caso de uso: Gestión de Zonas
 
- ### Caso: Solicitar Componentes 
+ | *Nombre*       | Gestión de Zonas                                                                                                                                                                                                                                                            |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| *Actores*      | Administrador                                                                                                                                                                                                                                                               |
+| *Flujo normal* | 1. Administrador accede al módulo de gestión de zonas.<br>2. Define las áreas geográficas de operación.<br>3. Configura las zonas de cobertura del servicio.<br>4. Establece las zonas tarifarias según la planificación.<br>5. Guarda y valida la configuración realizada. |
 
-| *Nombre*           | Solicitar Componentes                      |
-|-----------------------|-------------------------------------------------|
-| *Actores*          | Usuario (Comprador, Responsable de aprovisionamiento).    |
-| *Flujo normal*     | 1. Usuario identifica los componentes necesarios según las políticas de inventario. <br>2. Usuario elabora los pedidos de los componentes requeridos.<br>3. Usuario controla las órdenes pendientes para garantizar entregas a tiempo. <br>4. Usuario confirma la recepción de los componentes solicitados.|
+ ## Descripción del primer caso de uso: Programación de Recursos
+ | *Nombre*       | Programación de Recursos                                                                                                                                                                                                                                                                                   |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| *Actores*      | Administrador                                                                                                                                                                                                                                                                                              |
+| *Flujo normal* | 1. Administrador accede al módulo de programación de recursos.<br>2. Registra la flota disponible para la operación.<br>3. Verifica la disponibilidad de los conductores.<br>4. Comprueba el cumplimiento normativo de vehículos y conductores.<br>5. Confirma la asignación de recursos para el servicio. |
 
- ### Caso: Recibir Componentes
 
-| *Nombre*           | Recibir Componentes                          |
-|-----------------------|-------------------------------------------------|
-| *Actores*          | - Usuario (Comprador, Responsable de aprovisionamiento).<br> - Inventario   |
-| *Flujo normal*     | 1. Usuario verifica físicamente los componentes recibidos contra los pedidos realizados.<br>2. Usuario inspecciona los componentes para garantizar su calidad y cantidad.<br>3. Usuario registra las entradas de los componentes al Inventario.<br>4. Usuario reporta cualquier discrepancia o daño identificado.|
+## Caso: Optimización Avanzada
+| *Nombre*       | Optimización Avanzada                                                                                                                                                                                                                                                          |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| *Actores*      | Administrador                                                                                                                                                                                                                                                                  |
+| *Flujo normal* | 1. Administrador accede al módulo de optimización avanzada.<br>2. Analiza el balance entre oferta y demanda del servicio.<br>3. Aplica estrategias de optimización para mejorar la asignación de recursos.<br>4. Genera ajustes y recomendaciones para optimizar la operación. |
+
 
 ## 2. Diagrama de caso de uso (Almacenamiento)
 
@@ -102,3 +107,4 @@ La estructura de un diagrama de casos de uso incluye los siguientes componentes 
 |-----------------------|-------------------------------------------------|
 | *Actores*          | Coordinador de operaciones de inventario    |
 | *Flujo normal*     | 1. Coordinador de operaciones de inventario identifica componentes que alcanzan el punto de reorden.<br>2. Coordinador de operaciones de inventario activa las órdenes de compra para reabastecer dichos componentes.<br>3. Coordinador de operaciones de inventario calcula el stock de seguridad necesario según la demanda actual.|
+
